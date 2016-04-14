@@ -1,6 +1,6 @@
 do
 local function run(msg, matches)
-local bot_id = 157738608
+local bot_id = 184423235
 local fbot1 = 128555852
     if msg.action.type == "chat_del_user" and msg.action.user.id == tonumber(fbot1) then
        chat_add_user("chat#id"..msg.to.id, 'user#id'..fbot1, ok_cb, false)
