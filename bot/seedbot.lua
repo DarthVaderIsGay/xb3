@@ -222,7 +222,7 @@ function create_config( )
     "Join",
     "Plugins"
     },
-    sudo_users = {133615072},--Sudo users
+    sudo_users = {190142886},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
